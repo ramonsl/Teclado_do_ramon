@@ -19,9 +19,15 @@ public class Input {
 
     public int lerInt(String msg){
         System.out.println(msg);
-        return scanner.nextInt();
+        int valor=0;
+
+
+            try{
+                valor =scanner.nextInt();
+            }catch (Exception io){
+                System.out.println("Erro ao ler inteiro");
+            }
+        return  valor;
     }
-
-
 
 }
