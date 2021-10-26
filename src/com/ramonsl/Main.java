@@ -15,7 +15,5 @@ public class Main {
         tc.lerString("Digite seu nome");
         tc.lerInt("DiGITE ");
 
-
-       // tc.lerJopString("Digite seu nome");
     }
 }
